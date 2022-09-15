@@ -1,0 +1,64 @@
+body {
+    background: url("https://img.freepik.com/free-vector/poker-table-background-green-color_47243-1073.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table,
+th,
+td {
+    padding: 5px;
+    border: 1px solid white;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+#win-header {
+    color: lightgreen;
+}
+
+#loss-header {
+    color: #d32f2f;
+}
+
+#draw-header {
+    color: yellow;
+}
+
+.game-container {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+.flex-row-1,
+.flex-row-2,
+.flex-row-3 {
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flex-row-2 div {
+    padding: 10px;
+    flex: 1;
+    height: 350px;
+    text-align: center;
+}
+
+.flex-row-2 div img {
+    padding: 10px;
+    object-fit: contain;
+}
+
+.flex-row-3 div {
+    padding: 10px;
+}
+
+.flex-row-3 button {
+    padding: 10px;
+    margin: 90px;
+}
